@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+{% load static %}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	{% load bootstrap3 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="{% static 'default.css' %}" rel="stylesheet" type="text/css" media="all" />
+<link href="{% static 'fonts.css' %}" rel="stylesheet" type="text/css" media="all" />
+<link href="{% static 'table.css' %}" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+<body>
+<div id="page" class="container">
+	<div id="header">
+		<div id="logo">
+			<img src="{% static 'images/pic03.png' %}" alt="" />
+			<h1><a href="#">林秋琴</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="/" accesskey="1" title="">個人履歷</a></li>
+				<li><a href="/care/" accesskey="2" title="">居家看護</a></li>
+				<li><a href="/confinement/" accesskey="3" title="">月子嫂</a></li>
+				<li><a href="/child/" accesskey="4" title="">在宅保母</a></li>
+				<li><a href="/contact/" accesskey="5" title="">聯絡方式</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<div id="banner">
+			<img src="{% static 'images/pic04.jpg' %}" alt="" class="image-full" />
+		</div>
+		<div id="welcome">
+			<div class="title">
+				<h2>簡歷</h2>
+				<span class="byline">對於人的陪伴，永不滅的耐心</span>
+			</div>
+			<!--<p>This is <strong>Privy</strong>, a free, fully standards-compliant CSS template designed by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. The photos in this template are from <a href="http://fotogrph.com/"> Fotogrph</a>. This free template is released under the <a href="http://templated.co/license">Creative Commons Attribution</a> license, so you're pretty much free to do whatever you want with it (even use it commercially) provided you give us credit for it. Have fun :) </p> -->
+			<!--<p>1.從長照1.0開始，護擁有6~7`年的居家看護的經驗</p>
+			<p>2.曾做過1~2年的月子嫂</p>
+			<p>3.擁有8~9年的在宅保母</p>-->
+			<div class="tm-responsive-table">
+                <table>
+					<tr>
+					  <th>從長照1.0開始，擁有6~7年的居家看護的經驗</th>
+					</tr>
+					<tr>
+						<th>曾做過1~2年的月子嫂</th>
+					</tr>
+					<tr>
+						<th>擁有8~9年的在宅保母</th>
+					</tr>
+					<tr>
+                        <th>109年9月開始，從事長照2.0</th>
+                    </tr>
+				  </table>
+            </div>
+		</div>
+		<div id="featured">
+			<div class="title">
+				<h2>自我介紹</h2>
+				<span class="byline">專業的照顧生涯</span>
+			</div>
+			<ul class="style1">
+				<li class="first">
+					<h3>我是林秋琴，是一位專業的照服員。</h3>
+					<p>本人從事照顧服務相關產業數十年，對於老人、孕婦、小孩有各種不同的實務經驗。同時，也擁有居家看護、月子、保母等相關專業證照，也獲得相關照顧服務獎狀。</a></p>
+					<p>老人照顧上，無論是身體不適、身心失智等症狀，甚至長年臥病在床，都擁有實務的經驗;老年的營養配置、活動設計，或是環境清理，都擁有對應的方案。</a></p>
+					<p>在月子照顧的生涯中，無微不至的孕婦照護與嬰兒呵護是我的任務，協助產後孕婦回覆元氣，讓孕婦們能回到最佳狀態。同時，戰戰兢兢的照顧剛出生的新生兒，並讓產後的孕婦們能安心休養，是我的使命。</a></p>
+					<p>陪伴孩子成長令我最有成就，看著孩子出生、翻爬、走路、跑跳、上學這成長過程都是與我一起，讓我對這職業感到非常快樂，尤其是你對別人家的小孩好～就是對你自己好！在保母生涯中，不要去計較太多，往往得到的可能會更多～</a></p>
+					<p>這些經歷，讓我體驗不同的風景，讓我感受到不同的風情，照顧產業對我來說，是一個可以令我充滿熱誠的產業。</a></p>
+				</li>
+			</ul>
+			<div class="title">
+				<h2>獎狀展示</h2>
+                <span class="byline">成就的肯定，前進的動力</span>
+			</div>
+			<ul class="style1">
+				<li>
+                    <img src="{% static 'images/pic11.png' %}" alt="" class="image-full" />
+                </li>
+                <li>
+                    <img src="{% static 'images/pic12.png' %}" alt="" class="image-full" />
+				</li>
+			</ul>
+			<!--<ul class="style1">
+				<li class="first">
+					<p class="date"><a href="#">Jan<b>05</b></a></p>
+					<h3>Amet sed volutpat mauris</h3>
+					<p><a href="#">Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Etiam non felis. Donec ut ante.</a></p>
+				</li>
+				<li>
+					<p class="date"><a href="#">Jan<b>03</b></a></p>
+					<h3>Sagittis diam dolor amet</h3>
+					<p><a href="#">Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie. Donec leo, vivamus fermentum nibh in augue praesent congue rutrum.</a></p>
+				</li>
+				<li>
+					<p class="date"><a href="#">Jan<b>01</b></a></p>
+					<h3>Amet sed volutpat mauris</h3>
+					<p><a href="#">Consectetuer adipiscing elit. Nam pede erat, porta eu, lobortis eget, tempus et, tellus. Etiam neque. Vivamus consequat lorem at nisl. Nullam non wisi a sem semper eleifend. Etiam non felis. Donec ut ante.</a></p>
+				</li>
+				<li>
+					<p class="date"><a href="#">Dec<b>31</b></a></p>
+					<h3>Sagittis diam dolor amet</h3>
+					<p><a href="#">Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem. Mauris quam enim, molestie. Donec leo, vivamus fermentum nibh in augue praesent congue rutrum.</a></p>
+				</li>
+			</ul>-->
+		</div>
+		<!--<div id="copyright">
+			<span>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a></span>
+			<span>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</span>-->
+		</div>
+	</div>
+</div>
+</body>
+</html>
